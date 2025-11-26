@@ -1,3 +1,17 @@
 /**
 * Accordeon
 */
+details {
+    /* fermé et ouvert */
+    width: 100px;
+    overflow: hidden;
+    transition: width 2s;
+    display: flex;
+    padding-left: 20px;
+    position: relative;
+}
+
+details[open] {
+    /* ouvert */
+    width: calc(100px + 20rem);
+}
