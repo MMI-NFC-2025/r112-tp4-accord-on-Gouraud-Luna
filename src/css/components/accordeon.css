@@ -15,3 +15,12 @@ details[open] {
     /* ouvert */
     width: calc(100px + 20rem);
 }
+
+.accordeon>details>summary {
+    list-style: none;
+}
+
+.accordeon>details>summary::marker,
+.accordeon>details>summary::-webkit-details-marker {
+    display: none;
+}
