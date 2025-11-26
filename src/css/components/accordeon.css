@@ -1,6 +1,10 @@
 /**
 * Accordeon
 */
+.accordeon {
+    display: flex;
+}
+
 details {
     /* fermé et ouvert */
     width: 100px;
